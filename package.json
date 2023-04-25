@@ -1,0 +1,13 @@
+{
+  "name": "designtoken-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "node ./utils/colorTokenMaker.js && node ./utils/boxShadowMaker.js && node ./utils/typographyTokenMaker.js",
+    "type": "node ./utils/varsToType.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

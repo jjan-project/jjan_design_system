@@ -1,0 +1,53 @@
+:root {
+  --text-line-height-0: 24px;
+  --text-line-height-1: 20px;
+  --text-line-height-2: 18px;
+  --text-line-height-3: 16px;
+
+  --text-font-weight-pretendard-0: bold;
+  --text-font-weight-pretendard-1: normal;
+
+  --text-font-size-0: 12px;
+  --text-font-size-1: 14px;
+  --text-font-size-2: 16px;
+  --text-font-size-3: 18px;
+
+  --text-letter-spacing-0: -0.4%;
+  --text-letter-spacing-1: 0%;
+}
+
+.header1 {
+  font-size: var(--text-font-size-3);
+  font-weight: var(--text-font-weight-0);
+  line-height: var(--text-line-height-0);
+  letter-spacing: var(--text-letter-spacing-0);
+}
+
+.header2 {
+  font-size: var(--text-font-size-2);
+  font-weight: var(--text-font-weight-0);
+  line-height: var(--text-line-height-1);
+  letter-spacing: var(--text-letter-spacing-0);
+}
+
+.body1 {
+  font-size: var(--text-font-size-2);
+  font-weight: var(--text-font-weight-1);
+  line-height: var(--text-line-height-1);
+  letter-spacing: var(--text-letter-spacing-0);
+}
+
+.body2 {
+  font-size: var(--text-font-size-1);
+  font-weight: var(--text-font-weight-1);
+  line-height: var(--text-line-height-2);
+  letter-spacing: var(--text-letter-spacing-1);
+}
+
+.body3 {
+  font-size: var(--text-font-size-0);
+  font-weight: var(--text-font-weight-1);
+  line-height: var(--text-line-height-3);
+  letter-spacing: var(--text-letter-spacing-1);
+}
+

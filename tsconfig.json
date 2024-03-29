@@ -20,7 +20,15 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
 
+    /* Js dom*/
     "types": ["@testing-library/jest-dom"],
+
+    /* Path alias */
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["*"],
+      "@story/*": ["../.storybook/*"]
+    },
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]

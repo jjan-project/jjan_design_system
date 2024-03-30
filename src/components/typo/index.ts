@@ -1,2 +1,2 @@
-export * from "./typo";
-export * from "./types";
+export { Typo } from "./typo";
+export type { TypoComponent } from "./types";

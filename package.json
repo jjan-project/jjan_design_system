@@ -1,8 +1,19 @@
 {
-  "name": "jjan_design_system",
-  "private": true,
-  "version": "0.0.0",
+  "name": "jjan-design-system",
+  "private": false,
+  "version": "0.0.0-hello-npm-11",
   "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.cjs"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -52,6 +63,7 @@
     "storybook": "^8.0.4",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
+    "vite-plugin-dts": "^3.8.1",
     "vitest": "^1.4.0"
   }
 }

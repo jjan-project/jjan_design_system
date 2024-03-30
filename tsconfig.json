@@ -1,10 +1,15 @@
 {
   "compilerOptions": {
+    "outDir": "./dist",
     "target": "ES2020",
     "useDefineForClassFields": true,
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
+
+    /**/
+    "allowJs": true,
+    "declaration": true,
 
     /* Bundler mode */
     "moduleResolution": "bundler",
@@ -13,6 +18,8 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
+    "jsxImportSource": "@emotion/react",
+    "types": ["vite/client", "@emotion/react/types/css-prop"],
 
     /* Linting */
     "strict": true,
@@ -20,16 +27,13 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
 
-    /* Js dom*/
-    "types": ["@testing-library/jest-dom"],
-
     /* Path alias */
-    "baseUrl": "src",
+    "baseUrl": "./",
     "paths": {
-      "@/*": ["*"],
-      "@story/*": ["../.storybook/*"]
+      "@/*": ["src/*"],
+      // "@story/*": ["../.storybook/*"]
     },
   },
-  "include": ["src"],
+  "include": ["src", "dist"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

@@ -1,30 +1,30 @@
-# React + TypeScript + Vite
+![Thumnail](https://github.com/jjan-project/jjan_design_system/assets/64501757/d5e27320-1da8-4c7a-a9c5-6af6917b4758)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# JJAN design system
 
-Currently, two official plugins are available:
+짠(JJAN) 프로젝트 컴포넌트 라이브러리 저장소 입니다.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Installation
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```
+npm i jjan-design-system
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# Storybook
+
+스토리북 UI는 다음 링크를 참조해주세요. https://660669df67ccba61e0a64d14-qfybzaalgc.chromatic.com/?path=/story/checkbox--default
+
+# Usage
+
+```tsx
+import { Stack, Typo, Button } from 'jjan-design-system'; 
+
+const HelloWorld: React.FC = () => {
+  return (
+    <Stack>
+      <Typo appearance="header1">hello world</Typo>
+      <Button appearance="primary">Button</Button>
+    <Stack>
+  )
+}
+```

@@ -12,7 +12,7 @@ npm i jjan-design-system
 
 # Storybook
 
-스토리북 UI는 다음 링크를 참조해주세요. https://660669df67ccba61e0a64d14-qfybzaalgc.chromatic.com/?path=/story/checkbox--default
+스토리북 UI는 다음 링크를 참조해주세요. https://660669df67ccba61e0a64d14-qfybzaalgc.chromatic.com
 
 # Usage
 

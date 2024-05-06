@@ -1,8 +1,8 @@
 import { Typo } from "../typo";
 
-import { LabelProps } from "./types";
+import { CaptionProps } from "./types";
 
-const Caption = (props: LabelProps) => {
+const Caption = (props: CaptionProps) => {
   const { htmlFor, color, children } = props;
 
   return (

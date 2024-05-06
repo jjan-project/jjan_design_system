@@ -1,4 +1,3 @@
- 
 import { useRef, useEffect, useState } from "react";
 
 const SCROLL_DEBOUNCE_TIME = 100;

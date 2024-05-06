@@ -1,5 +1,3 @@
-![Thumnail](https://github.com/jjan-project/jjan_design_system/assets/64501757/d5e27320-1da8-4c7a-a9c5-6af6917b4758)
-
 # JJAN design system
 
 짠(JJAN) 프로젝트 컴포넌트 라이브러리 저장소 입니다.
